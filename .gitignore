@@ -1,0 +1,14 @@
+# Datos
+data/
+*.parquet
+
+# Modelos
+*.pkl
+*.joblib
+
+# Notebooks outputs
+.ipynb_checkpoints/
+
+# Entornos
+venv/
+.env
