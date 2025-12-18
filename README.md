@@ -8,12 +8,22 @@ El sistema sigue la metodología **CRISP-DM**, se integran múltiples fuentes de
 ## Estructura del Proyecto
 
 El repositorio sigue una arquitectura de microservicios.
-├── 01_data_understanding/ # Notebooks para EDA 
+├── 01_data_understanding/ # Notebooks para EDA
+
 ├── 02_data_preparation/ # Scripts de limpieza, ingeniería de features e integración 
-├── 03_modeling/ # Entrenamiento del modelo (Random Forest) y validación ├── 04_evaluation/ # Generación de métricas y gráficos de desempeño 
-├── 05_deployment/ # API REST (FastAPI) para predicción en tiempo real ├── artifacts/ # Modelos serializados (.joblib) y metadatos 
+
+├── 03_modeling/ # Entrenamiento del modelo (Random Forest) y validación 
+
+├── 04_evaluation/ # Generación de métricas y gráficos de desempeño 
+
+├── 05_deployment/ # API REST (FastAPI) para predicción en tiempo real 
+
+├── artifacts/ # Modelos serializados (.joblib) y metadatos 
+
 ├── data/ # Fuentes de datos entregadas y  aquellas procesadas 
+
 ├── requirements.txt # Dependencias del proyecto 
+
 └── README.md # Documentación
 
 ## Instalación y Configuración del Proyecto
