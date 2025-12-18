@@ -6,25 +6,25 @@ En este proyecto se implementa una solución de Machine Learning para predecir l
 El sistema sigue la metodología **CRISP-DM**, se integran múltiples fuentes de datos relacionales, aplicando la ingeniería de características avanzada y desplegando el modelo final mediante una **API REST** con FastAPI.
 
 ## Estructura del Proyecto
-
 El repositorio sigue una arquitectura de microservicios.
+
 ├── 01_data_understanding/ # Notebooks para EDA
 
-├── 02_data_preparation/ # Scripts de limpieza, ingeniería de features e integración 
+├── 02_data_preparation/   # Scripts de limpieza, ingeniería de features e integración 
 
-├── 03_modeling/ # Entrenamiento del modelo (Random Forest) y validación 
+├── 03_modeling/           # Entrenamiento del modelo (Random Forest) y validación 
 
-├── 04_evaluation/ # Generación de métricas y gráficos de desempeño 
+├── 04_evaluation/         # Generación de métricas y gráficos de desempeño 
 
-├── 05_deployment/ # API REST (FastAPI) para predicción en tiempo real 
+├── 05_deployment/         # API REST (FastAPI) para predicción en tiempo real 
 
-├── artifacts/ # Modelos serializados (.joblib) y metadatos 
+├── artifacts/             # Modelos serializados (.joblib)
 
-├── data/ # Fuentes de datos entregadas y  aquellas procesadas 
+├── data/                  # Fuentes de datos entregadas y  aquellas procesadas 
 
-├── requirements.txt # Dependencias del proyecto 
+├── requirements.txt       # Dependencias del proyecto 
 
-└── README.md # Documentación
+└── README.md              # Documentación
 
 ## Instalación y Configuración del Proyecto
 
