@@ -1,3 +1,7 @@
+# Archivos Python Basura
+__pycache__/
+*.py[cod]
+
 # Datos
 data/
 *.parquet
